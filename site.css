@@ -1,0 +1,518 @@
+*{box-sizing: border-box;}
+#header {
+    width: 300px;
+    height: 100vh;
+    min-height: 400px;
+    overflow: auto;
+    background: #000;
+    padding: 30px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#txt1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    opacity: 10px;
+}
+#divfixed{
+    position: fixed;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.span {
+    margin-top: 0.8px;
+    margin: 10px;
+}
+
+.corbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: "Quicksand";
+    background-color: #000;
+}
+
+#pai {
+    width: 100%;
+    background-image: url(img_9.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#fundo {
+    backdrop-filter: brightness(60%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    
+}
+
+#titulo {
+    font-size: 60px;
+    font-family: "Oswald", sans-serif;}
+
+svg {
+    fill: white;
+    width: 13px;
+    display: flex;}
+
+svg:hover {
+    fill: #df0e62;}
+
+a:hover{color: #df0e62;}
+
+#svg1 {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+#texto{font-size: 20px;
+font-weight: 100;
+line-height: 35px;
+}
+
+.botao{
+    background-color: #df0e62;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 50pc ; 
+    margin: 0;
+    font-family: "Quicksand";
+    box-shadow: none;
+    font-weight: bold;
+    margin-top: 50px;
+
+}
+#center{
+   text-align: center;
+   padding-left: -20%;
+}
+#divbotao{
+    height: 150px;
+    background-color: #1a1a1a;
+}
+.botao:hover{
+filter: brightness(60%);}
+
+button{
+    border: 0;
+    
+}
+
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+    background-color: black;
+}
+
+.imagens{
+    overflow: hidden;
+    width: 33.12%;
+    height: 30vh;
+    position: relative;
+}
+
+.imagens img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 15;
+}
+
+.imagens svg{
+    fill: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 1S;
+}
+
+.imagens:hover svg{
+    top: 50%;
+    opacity: 1;
+    
+}
+
+.imagens:hover img{
+    filter: brightness(50%);
+}
+
+#espaco{
+    background-color: #000;
+    color: white;
+    height: 75vh;
+    text-align: center;
+}
+
+#titulo1{
+    display: flex;
+justify-content: center;
+margin-top: 100px;
+font-family: "Oswald";
+font-size: 64px;
+padding-top: 1px;
+}
+
+#imagem1 img{
+border-radius: 100%;
+width: 170px;
+}
+
+#imagem1{
+    text-align: center;
+    margin-top: 60px;}
+
+
+#titulo2{
+    font-size: 16PX;
+    font-family: "Quicksand";
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#texto2{
+    font-size: 16px;  
+    margin-top: 20PX;
+    color: gray;
+    font-family: "Quicksand";
+    line-height: 28px;
+}
+
+#biografia{
+   height: 180vh; 
+   background-color: #1a1a1a;
+   text-align: center;
+   color: white;
+   flex-wrap: wrap;
+   flex-direction: column;
+   padding-left: 20%;
+   position: relative;
+   padding-top: 10px;
+   text-align: left;
+}
+
+#biografia::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+
+.biografiatitulo{
+    display: flex;
+justify-content: left;
+margin-top: 10px;
+font-family: "Oswald";
+font-size: 64px;
+
+
+}
+
+#person3{
+text-align: left;
+margin-top: 45px;
+}
+
+.titulo01{
+margin-top: 40px;
+font-size: 28px;
+font-family: "Oswald";
+}
+
+#texto02{
+    color: #808080;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+#palavravermelha{
+    color: #df0e62;
+}
+
+#palavravermelha:hover{
+    filter: brightness(50%); 
+}
+
+#texto03{
+    color: #808080;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#caixa{
+    display: flex;
+    justify-content: flex-start;
+    color: #808080;
+    line-height: 40px;
+    margin-top: 40px;
+    gap: 15%;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    position: relative;
+}
+
+li::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: -15px;
+    top: 0;
+    background-image: url(check-solid\ \(1\).svg);
+    background-size: 100%;
+}
+
+#espaco1{
+    background-color: #000;
+    height: 175vh;
+    padding-left: 20%;
+    color: white;
+}
+
+.biografiatitulo1{
+    display: flex;
+    justify-content: left;
+    margin-top: 150px;
+    font-family: "Oswald";
+    font-size: 64px;
+    color: white;
+    padding-left: 2%;
+}
+
+.imgblog {
+    width: 250px;
+    height: 200px;
+    margin-right: 48px;
+    object-fit: cover;
+ 
+}
+
+.imagemblog{
+    display: flex;
+    flex-direction: row;
+    padding: 23px;
+
+    margin-top: 10px;
+}
+
+.subtitulo{
+   margin:0;
+} 
+
+
+
+.separacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.oswald {
+    font-family: "Oswald";
+    font-weight:400;
+}
+
+a{
+    text-decoration: none;
+    color: #df0e62;
+}
+a:hover{
+    filter: brightness(50%); 
+}
+
+.cinza{
+    margin: 0;
+    margin-top: 10px;
+    color: #808080;
+    line-height: 30px;
+}
+
+#formulario{
+    height: 770px;
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 22%;
+    position: relative;
+    padding-top: 10px;
+    text-align: left;
+    color: white;
+}
+
+#formulario::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+#biografia::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #df0e62;
+    height: 4px;
+    width: 100px;
+}
+
+.name{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 300px;
+    background-color: #1a1a1a;
+}
+.lastname{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 300px;
+}
+.email{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px ;
+}
+.subject{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px;
+}
+.mesage{
+    font-family: "Quicksand";
+    margin: 0;
+    width: 600px; 
+    margin-top: 15px;
+}
+.espacomensage{
+    margin-top: 15px;
+}
+.imput1{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 98.5%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+.imput2{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.imput3{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.imput4{
+    background-color: #1a1a1a;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.form-control{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+textarea{
+background-color: #1a1a1a;
+width: 600px;
+height: 181px;
+border-bottom: 2px solid gray;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+}   
+
+.justificado{
+    display: flex;
+}
+.caixadetexto{
+    background-color: #1a1a1a;
+}
+#escrito{
+    color: #808080;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 100;
+}
+#rodape{
+    background-color: #000;
+    height: 100px;
+    color: gray;
+    text-align: center;
+    margin-top: 65px;
+}
+#rodapefinal{
+    text-align: center;
+}
+
+
+
+
+
+
